@@ -9,5 +9,6 @@ También he usado JavaScript para crear dos scripts:
 
  Cabe destacar que no se ha usado ningún momento el uso de class, id ni de bloques div.
  En el base.css se encuentran definidas variables que se usan en el resto de CSS. Estas variables, que se usan para no tener que repetir colores en todas las CSS, producen advertencias en el validador.
+ También he dejado algunas advertencias del validador de CSS que tienen que ver con redimensiones y advertencias que me dicen que no tengo colores establecidos porque el validador no tiene en cuenta que lo heredan de las variables definidas en el base.css.
 
  Por último, añadir que en el contacto.html, cuando se le pasa el validador de lighthouse, las best practices baja a un valor de más o menos 77, debido al uso de mailto: pero al no parecerme una bajada significativa he decidido dejarlo así.
