@@ -27,6 +27,7 @@ main > section:has(header nav) > header {
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 0.25rem;
+  color: inherit;
   background: transparent;
   border: none;
   padding: 0;
@@ -106,6 +107,7 @@ main > section:has(header nav) > article > h3 {
 main > section:has(header nav) > article > p {
   font-size: 0.8rem;
   color: var(--color-texto-suave);
+  background-color: transparent;
   margin-bottom: 0;
   white-space: nowrap;
   overflow: hidden;

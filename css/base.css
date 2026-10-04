@@ -39,6 +39,7 @@ body {
    CABECERA Y NAVEGACIÓN GLOBAL
    ========================================================================== */
 body > header {
+  color: inherit;
   background-color: var(--color-superficie);
   border-bottom: 0.0625rem solid var(--color-borde);
   position: sticky;
@@ -62,6 +63,7 @@ body > header > nav > a:first-of-type {
   font-size: 1.25rem;
   font-weight: 800;
   color: var(--color-primario);
+  background-color: transparent;
   text-decoration: none;
   letter-spacing: -0.02rem;
 }
@@ -76,6 +78,7 @@ body > header ul {
 body > header ul a {
   text-decoration: none;
   color: var(--color-texto);
+  background-color: transparent;
   font-weight: 600;
   font-size: 0.95rem;
   padding: 0.45rem 0.85rem;
@@ -116,12 +119,14 @@ main > h1 {
   font-size: 2.15rem;
   font-weight: 800;
   color: var(--color-texto);
+  background-color: transparent;
   margin-bottom: 1.5rem;
   letter-spacing: -0.03rem;
 }
 
 main > section,
 main > article {
+  color: inherit;
   background-color: var(--color-superficie);
   border: 0.0625rem solid var(--color-borde);
   border-radius: var(--radio-borde);
@@ -135,6 +140,7 @@ h2 {
   font-weight: 700;
   margin-bottom: 0.75rem;
   color: var(--color-texto);
+  background-color: transparent;
 }
 
 h3 {
@@ -149,12 +155,14 @@ p {
 
 main a {
   color: var(--color-primario);
+  background-color: transparent;
   text-decoration: underline;
   text-underline-offset: 0.15rem;
 }
 
 main a:hover {
   color: var(--color-primario-hover);
+  background-color: transparent;
 }
 
 /* ==========================================================================

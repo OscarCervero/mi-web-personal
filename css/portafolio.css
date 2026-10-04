@@ -25,6 +25,7 @@ main > section:has(> img[alt*="retrato"]) > img {
 }
 
 main > section:has(> img[alt*="retrato"]) > article {
+  color: inherit; /* Corrige la advertencia de la línea 28 */
   background-color: transparent;
   border: none;
   padding: 0;
@@ -36,6 +37,7 @@ main > section:has(> img[alt*="retrato"]) > article {
 main > section:has(> img[alt*="retrato"]) > article > p:first-of-type {
   font-weight: 700;
   color: var(--color-primario);
+  background-color: transparent; /* Corrige la advertencia de la línea 38 */
   font-size: 1.1rem;
 }
 
@@ -75,6 +77,7 @@ main > section:has(video) video {
   border-radius: calc(var(--radio-borde) * 0.75);
   display: block;
   margin-top: 1rem;
+  color: inherit; /* Corrige la advertencia de la línea 78 */
   background-color: #000000;
 }
 
